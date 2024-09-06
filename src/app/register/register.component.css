@@ -1,0 +1,117 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffe645 0%, #e2aa02 100%);
+    position: relative;
+}
+
+.login-container .logo{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Creepster', cursive;
+    letter-spacing: 10px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.login-container .desc{
+    font-size: 34px;
+    font-family: 'Aladin', cursive;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    text-align: right;
+    width: 1200px;
+}
+
+.login-container .film{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 603px;
+}
+
+.login-container .login-form{
+    width: 520px;
+    height: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: 5px 5px 20px #383838;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-container .login-form .form-group{
+  margin-top: 5px;
+  height: 25px;
+  background-color: #303030;
+  color: #E5E5E5;
+  padding: 2px 5px;
+  border: 1px solid black;
+  border-radius: 3px
+}
+
+.login-container .login-form .form-group .alert{
+    position: absolute;
+    top: 115px;
+    right: 10px;
+    color: red;
+}
+
+.login-container .login-form .form-group .alert1{
+    position: absolute;
+    top: 39px;
+    right: 10px;
+    color: red;
+}
+
+.login-container .login-form .form-group .alert3{
+    position: absolute;
+    top: 79px;
+    right: 10px;
+    color: red;
+}
+
+.alert2{
+    margin-top: 28px;
+    right: 10px;
+    color: red;
+}
+.login-container .login-form .login a{
+    margin-top: 100px;
+}
+.login-container .login-form label{
+    font-weight: bold;
+}
+.login-container .login-form .btn-container {
+    position: relative;
+}
+.login-container .login-form .btn-container button{
+  margin-top: 30px;
+  width: 80px;
+  height: 40px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px #202020;
+  border: none;
+  background-color: #454545;
+  color: #E5E5E5;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  justify-content: center;
+}
+.login-container .login-form .btn-container .error .alert{
+    position: absolute;
+    top: 63px;
+    right: 0px;
+    color: red;
+}

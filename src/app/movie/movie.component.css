@@ -1,0 +1,125 @@
+.movie-container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.movie-container .top{
+    display: flex;
+}
+
+.movie-container .top .left{
+    width: 450px;
+}
+
+.movie-container .top .left .name{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.movie-container .top .left .rating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.movie-container .top .left .rating .rating-value{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.movie-container .top .left .cover{
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+}
+
+.movie-container .top .left .cover img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-container .top .right{
+    padding-top: 100px;
+    width: 500px;
+}
+
+.movie-container .top .right .title{
+    margin-bottom: 30px;
+}
+
+.movie-container .top .right .rating-form .form-group{
+    margin-top: 20px;
+}
+
+.movie-container .top .right .rating-form .form-group label{
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.movie-container .top .right .rating-form .form-group input{
+    width: 100%;
+    height: 20px;
+}
+
+.movie-container .top .right .rating-form .form-group textarea{
+    resize: none;
+    width: 100%;
+    height: 70px;
+}
+
+.movie-container .top .right .rating-form .btn-container{
+    margin-top: 30px;
+}
+
+.movie-container .top .right .rating-form .btn-container button{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
+
+.movie-container .bottom{
+    margin-top: 50px;
+}
+
+.movie-container .bottom .title{
+    margin-bottom: 30px;
+}
+
+.movie-container .bottom .reviews{
+    width: 1000px;
+}
+
+.movie-container .bottom .reviews .review{
+    margin-bottom: 25px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.movie-container .bottom .reviews .review .review-details{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.movie-container .bottom .reviews .review .review-details .review-left .author{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.movie-container .bottom .reviews .review .review-details .review-left .author_dt{
+    opacity: 0.5;
+}
+
+.movie-container .bottom .reviews .review .review-details .review-right .rating{
+    display: flex;
+    align-items: center;
+}
+
+.movie-container .bottom .reviews .review .review-details .review-right .rating .rating-value {
+    margin-left: 20px;
+    font-weight: bold;
+}
